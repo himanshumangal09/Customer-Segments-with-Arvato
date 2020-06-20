@@ -34,3 +34,4 @@ See blog post [here](https://medium.com/@himanshumangal09/exploring-customer-seg
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 I would like to thank Arvato Financial Solutions for the datasets/files and Udacity for making this project possible.
+This project is under MIT License.
