@@ -31,7 +31,9 @@ As stated above the data for this project is not publicly available. For this re
 
 ## Results <a name="results"></a>
 ![alt text](https://github.com/himanshumangal09/Arvato-capstone-project/blob/master/image.png?raw=true)
-See blog post [here](https://medium.com/@himanshumangal09/exploring-customer-segments-and-predicting-customer-response-1e3dcd816e5f) 
+
+
+**See blog post** [here](https://medium.com/@himanshumangal09/exploring-customer-segments-and-predicting-customer-response-1e3dcd816e5f) 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 I would like to thank Arvato Financial Solutions for the datasets/files and Udacity for making this project possible.
