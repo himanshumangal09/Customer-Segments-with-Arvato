@@ -30,7 +30,7 @@ Arvato provided a couple of files for this project but as part of the terms and 
 As stated above the data for this project is not publicly available. For this reason the notebook and models provided by this repository cannot be used, but are made available to serve as a snapshot of the state of the project at the end.
 
 ## Results <a name="results"></a>
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/himanshumangal09/Arvato-capstone-project/blob/master/image.png?raw=true)
 See blog post [here](https://medium.com/@himanshumangal09/exploring-customer-segments-and-predicting-customer-response-1e3dcd816e5f) 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
