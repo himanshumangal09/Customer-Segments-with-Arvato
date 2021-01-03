@@ -9,9 +9,7 @@
 6. [Results](#results)
 7. [Licensing, Authors, and Acknowledgements](#licensing)
 
-## Installation <a name="installation"></a>
-Besides the libraries included in the Anaconda distribution for Python 3.6 the following libraries have been included in this project:
-* `XGBoost` - optimized distributed gradient boosting library designed to be highly efficient, flexible and portable.
+
 ## Introduction <a name="introduction"></a>
 This project has 2 major parts and 1 minor at the end:
 1. Customer Segmentation Report (Unsupervised Learning) - EDA, PCA and clustering analysis of the general and customer population with the goal of being able to describe the core customer base of the company.
@@ -20,14 +18,34 @@ This project has 2 major parts and 1 minor at the end:
 
 ## Project Motivation <a name="motivation"></a>
 This project provided by Arvato Financial Solutions was one of the available capstone projects. I chose this project mainly for two reasons:
-* The data in this project is real and almost no cleaning has been done to it.
+* The data in this project is real and almost no cleaning has been done on it.
 * Last part of the project gives me the opportunity to participate in a Kaggle competition with the other students.
 
-## Files <a name="files"></a>
-Arvato provided a couple of files for this project but as part of the terms and conditions I'm not allowed to share/include them in this repository.
+## Project Overview
+In this project, we are provided with demographic data of customers of a mail-order company in Germany and demographic data of general population of Germany. Using this data, we are required to identify new customers for the company.
 
-## Instructions <a name="instructions"></a>
-As stated above the data for this project is not publicly available. For this reason the notebook and models provided by this repository cannot be used, but are made available to serve as a snapshot of the state of the project at the end.
+The project was divided into three distinct parts to make them more manageable:
+* Data Preprocessing — The first part was all about performing preprocessing steps to make data ready for further analysis. This involved converting missing value codes to NaN’s, analyzing missing values per column and row, and some feature engineering.
+
+* Identify customer segments within the general population — The second part aimed to help the company create a more efficient way of targeting people who are more likely to become customers. This was done by comparing the customer demographics data against general population demographics data. Using the principal component and unsupervised techniques different segments were created which in turn made it possible to identify parts of the population that best described the core customer base of the German company.
+
+
+* Predict customer response rate — The motivation for the third part was to create a machine learning model that could be used to predict whether or not a person would respond to a marketing campaign. As a final part, the best model was submitted to Kaggle to see how it stacked up against models created by other users.
+
+
+### Technical overview:
+Step by step workflow from data exploration, processing to inference is approached in a structured fashion. Because of the large volume of source data, we build preprocessing pipeline  to get rid of unnecessary and outlier data and implement Dimensionality Reduction and Clustering to identify segments. Due to the nature of the data (details in notebook), AUC/ROC is used as the evaluation metric for this project. Prediction for test set is to be submitted to Kaggle competition for evaluation.
+
+Following concepts implemented and covered in detail in the notebook: 
+* Data Exploration & Cleansing
+* Dimensionality Reduction
+* Clustering
+* Supervised Learning
+* Final Model Evaluation
+* Feature Importance
+* Analysis of identified important features in clusters to find relevance
+* Scoring and submisstion to Kaggle
+
 
 ## Results <a name="results"></a>
 ![alt text](https://github.com/himanshumangal09/Arvato-capstone-project/blob/master/image.png?raw=true)
